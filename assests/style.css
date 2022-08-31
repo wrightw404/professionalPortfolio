@@ -9,7 +9,7 @@
 	width: 100%;
 	text-align: center;
 	color: var(--lightblue);
-	font-size: 47px;
+	font-size: 40px;
 	letter-spacing: 5px;
 	font-weight: bold;
 	line-height: 50px;
@@ -24,14 +24,10 @@
 
 .ptext .border {
 	color: var(--lightblue);
-	font-size: 45px;
+	font-size: 40px;
 	letter-spacing: 5px;
 	font-weight: bold;
-	line-height: 50px;
-}
-
-.ptext h1 {
-	font-size: 45px;
+	line-height: 20px;
 }
 
 .ptext h4 {
@@ -39,6 +35,3 @@
 	color: var(--white);
 }
 
-.ptext .border {
-	color: var(--lightblue);
-}
