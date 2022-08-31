@@ -1,190 +1,3 @@
-/*:root {
-    --lightblue: #45A293;
-    --white: #C5C6C7;
-    --nav:  #66fcf1;
-}
-
-html {
-    background-color: black;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-}
-/*navigation*/
- /*header {
-	background: rgba(2,2,2,0.1);
-	position: fixed;
-	width: 100%;
-	z-index: 10;
-	top: 0;
-}
-
-header::after {
-	content: '';
-	display: table;
-	clear: both;
-}
-
-nav {
-	float: right;
-}
-
-nav ul {
-	list-style: none;
-	margin: 20px 0;
-	background: rgba(2,2,2,0);
-}
-
-nav li {
-	display: inline-block;
-	margin: 0 50px;
-	background: rgba(2,2,2,0);
-}
-
-nav a {
-	color: var(--nav);
-	text-decoration: none;
-	text-transform: uppercase;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	background: rgba(2,2,2,0);
-}
-
-nav a:hover {
-    background-color: var(--nav);
-    color: black;
-}
-
-nav a:active {
-	color: var(--nav);
-	background-color: black;
-}
-
-/* start of name of occupation */
-
-/*.ptext {
-	position: absolute;
-	top: 5%;
-	width: 100%;
-	text-align: center;
-	color: var(--lightblue);
-	font-size: 40px;
-	letter-spacing: 5px;
-	font-weight: bold;
-	line-height: 50px;
-}
- 
-.ptext .border {
-	color: var(--lightblue);
-	font-size: 40px;
-	letter-spacing: 5px;
-	font-weight: bold;
-	line-height: 20px;
-}
-
-.ptext h4 {
-	font-size: 20px;
-	color: var(--white);
-}
-
-/* about me */
-/*.section-about {
-    margin-top: 20%;
-    width: 100%;
-   
-}
-
-.section-about h2 {
-	color: var(--nav);
-	text-align: center;
-	font-weight: bold;
-}
-
-.section-about p {
-	text-align: center;
-	color: var(--white);
-    margin-left: 5%;
-    margin-right: 5%;
-    line-height: 150%;
-    display: block;
-}
-
-.section-about a {
-	color: var(--nav);
-	text-decoration: none;
-}
-
-.section-about a:hover {
-	background-color: var(--white);
-	color: black;
-	text-decoration: underline;
-}
-.section-about .headShot img {
-    float: right;
-    margin-left: 4%;
-    margin-bottom: 3%;
-    border-radius: 25%;
-}
-
-/* projects section*/ 
-/*.section-projects {
-    width: 100%;
-    margin: 15%;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.section-projects .row {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 0 8px;
-    margin-bottom: 15%;
-    margin: 0 auto;
-
-}
-
-.section-projects .column {
-	flex: 25%;
-	padding: 0 5px;
-    
-}
-
-.section-projects .row::after{
-	content: "";
-	clear: both;
-	display: table;
-}
-
-.section-projects .column img {
-	margin-top: 8%;
-    align-items: center;
-	display: flex;
-	vertical-align: middle;
-    max-height: 50%;
-	max-width: 50%;
-	border-radius: 10%;
-	box-shadow: 3px 5px rgba(2,2,2,0.8);
-    margin-left: 25%;
-}
-
-.section-projects .popup:hover {
-	transform: scale(1.1);
-}
-
-/*start of zoom*/
-
-/*.section-projects h2 {
-	color: #66FCF1;
-	font-weight: bold;
-    text-align: center;
-}
-.section-projects p {
-	color: #66FCF1;
-    margin-left: 25%;
-    text-decoration: wavy;
-} */
-
 *{
     box-sizing: border-box;
 }
@@ -202,11 +15,10 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-}
-main {
     display: flex;
     flex-wrap: wrap;
 }
+
 /*navigation*/
 header {
 	background: rgba(2,2,2,0.1);
@@ -260,6 +72,7 @@ nav a:active {
 #home {
     width: 100%;
 }
+
 .ptext {
 	position: absolute;
 	top: 5%;
@@ -271,6 +84,7 @@ nav a:active {
 	font-weight: bold;
 	line-height: 50px;
     margin-bottom: 5%;
+    margin-top: 6%;
 }
  
 .ptext .border {
@@ -288,7 +102,7 @@ nav a:active {
 
 /* about me */
 .section-about {
-    margin-top: 20%;
+    margin-top: 30%;
     width: 100%;
     display: inline-block;
 }
@@ -373,12 +187,12 @@ nav a:active {
 /*start of zoom*/
 
 .section-projects h2 {
-	color: #66FCF1;
+	color: var(--nav);
 	font-weight: bold;
     text-align: center;
 }
 .section-projects p {
-	color: #66FCF1;
+	color: var(--nav);
     text-align: center;
     text-decoration: wavy;
 }
@@ -437,37 +251,3 @@ nav a:active {
 .section-contact .popup:hover {
 	transform: scale(1.1);
 }
-
-
-
-
-/*start of contact
-.section-contact  {
-	display: flex;
-    flex-wrap: wrap;
-  
-	justify-content: center;
-    width: 100%;
-    margin-top: 5%;
-}
-
-.section-contact span h2 {
-	color: #66FCF1;
-    text-align: center;
-    font-weight: bold;
-}
-
-.section-contact img {
-	max-height: 70px;
-	border-radius: 50%;
-	padding-top: 20px;
-    
-  
-}
-.section-contact p {
-	color: #66FCF1;
-}
-
-.section-contact h6 {
-    color: var(--nav);
-} */
