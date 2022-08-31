@@ -1,13 +1,18 @@
-*{
-    background-color: black;
-}
-
 :root {
     --lightblue: #45A293;
     --white: #C5C6C7;
     --nav:  #66fcf1;
 }
 
+html {
+    background-color: black;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*navigation*/
 header {
 	background: rgba(2,2,2,0.1);
 	position: fixed;
@@ -57,9 +62,10 @@ nav a:active {
 }
 
 /* start of name of occupation */
+
 .ptext {
 	position: absolute;
-	top: 3%;
+	top: 5%;
 	width: 100%;
 	text-align: center;
 	color: var(--lightblue);
@@ -82,3 +88,39 @@ nav a:active {
 	color: var(--white);
 }
 
+/* about me */
+main .section-about {
+    margin-top: 20%;
+}
+
+.section-about h2 {
+	color: #66FCF1;
+	text-align: center;
+	font-weight: bold;
+}
+
+.section-about p {
+	text-align: center;
+	color: #C5C6C7;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 150%;
+    display: block;
+}
+
+.section-about a {
+	color: #66FCF1;
+	text-decoration: none;
+}
+
+.section-about a:hover {
+	background-color: white;
+	color: black;
+	text-decoration: underline;
+}
+.section-about .headShot img {
+    float: right;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    border-radius: 25%;
+}
