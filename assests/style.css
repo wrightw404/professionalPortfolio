@@ -1,0 +1,44 @@
+:root {
+    --lightblue: #45A293;
+    --white: #C5C6C7;
+
+}
+.ptext {
+	position: absolute;
+	top: 3%;
+	width: 100%;
+	text-align: center;
+	color: var(--lightblue);
+	font-size: 47px;
+	letter-spacing: 5px;
+	font-weight: bold;
+	line-height: 50px;
+}
+ 
+
+.ptext h4 {
+	font-size: 20px;
+	color: var(--white);
+}
+
+
+.ptext .border {
+	color: var(--lightblue);
+	font-size: 45px;
+	letter-spacing: 5px;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+.ptext h1 {
+	font-size: 45px;
+}
+
+.ptext h4 {
+	font-size: 20px;
+	color: var(--white);
+}
+
+.ptext .border {
+	color: var(--lightblue);
+}
