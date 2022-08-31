@@ -1,8 +1,62 @@
+*{
+    background-color: black;
+}
+
 :root {
     --lightblue: #45A293;
     --white: #C5C6C7;
-
+    --nav:  #66fcf1;
 }
+
+header {
+	background: rgba(2,2,2,0.1);
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	top: 0;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	list-style: none;
+	margin: 20px 0;
+	background: rgba(2,2,2,0);
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 50px;
+	background: rgba(2,2,2,0);
+}
+
+nav a {
+	color: var(--nav);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	background: rgba(2,2,2,0);
+}
+
+nav a:hover {
+    background-color: var(--nav);
+    color: black;
+}
+
+nav a:active {
+	color: var(--nav);
+	background-color: black;
+}
+
+/* start of name of occupation */
 .ptext {
 	position: absolute;
 	top: 3%;
@@ -15,13 +69,6 @@
 	line-height: 50px;
 }
  
-
-.ptext h4 {
-	font-size: 20px;
-	color: var(--white);
-}
-
-
 .ptext .border {
 	color: var(--lightblue);
 	font-size: 40px;
